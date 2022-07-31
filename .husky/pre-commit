@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_//husky.sh"
+
+pnpm check --integrity && pnpm pretty-quick --staged && pnpm lint
