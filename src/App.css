@@ -1,0 +1,17 @@
+/* #root {
+  width: 100vw;
+  height: 100vh;
+} */
+
+#container {
+  width: 100vw;
+  height: 600px !important;
+}
+
+.loading {
+  top:0;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background:#fff;
+}

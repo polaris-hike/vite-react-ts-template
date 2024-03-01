@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>生成二维码示例</title>
+    <style>
+      #qrcode {
+        width: 400px;
+        height: 400px;
+        border: 1px solid pink;
+      }
+      img {
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="qrcodeDefault"></div>
+    <img id="qrcode" src="" alt="">
+    <!-- <img src="./codemao2.gif" alt=""> -->
+    <!-- <img src="./tr.png" alt=""> -->
+    </div>
+    // 加载 gif.js 库
+    // 加载 gifuct-js 库
+    <script src="https://cdn.jsdelivr.net/npm/gifuct-js/dist/gifuct-js.js"></script>
+    <script>
+// 创建一个新的Image对象
+var img = new Image();
+
+// 当图像加载完成后执行回调函数
+img.onload = function() {
+  // 创建一个新的canvas元素
+  var canvas = document.createElement('canvas');
+  var ctx = canvas.getContext('2d');
+
+  // 设置canvas的尺寸为所需的大小
+  canvas.width = 400;
+  canvas.height = 400;
+
+  // 在canvas上绘制图像，同时调整尺寸
+  ctx.drawImage(img, 0, 0,400,400);
+
+  // 将canvas转换为新的图像对象
+  var resizedImage = new Image();
+  resizedImage.src = canvas.toDataURL();
+
+  // 将新的图像显示在页面上
+  document.body.appendChild(resizedImage);
+};
+
+// 设置图像的源路径
+img.src = 'gif.gif';
+    </script>
+
+    
+  </body>
+</html>

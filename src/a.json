@@ -1,0 +1,560 @@
+{
+  "projectName": "飞机大战",
+  "scenes": {
+    "scenesDict": {
+      "700824a5-44a8-4d03-a7e8-aa95d87e9b2a": {
+        "styles": [
+          "0e92cb61-a5ac-4fdf-8328-4e4a099f5cb3"
+        ],
+        "actorIds": [
+          "f84269ce-7f8f-4365-b48d-75f6219a87f6",
+          "2d3d73c7-8d27-4d7d-b344-34428839fd98",
+          "3c496206-daed-4c2a-ac36-4a99c7924220"
+        ],
+        "id": "700824a5-44a8-4d03-a7e8-aa95d87e9b2a",
+        "visible": true,
+        "currentStyleId": "0e92cb61-a5ac-4fdf-8328-4e4a099f5cb3",
+        "nekoBlockJsonList": [],
+        "name": "背景",
+        "screenName": "开始页",
+        "workspaceScrollXy": {
+          "x": 100,
+          "y": 54
+        }
+      },
+      "02f0b0d4-72ac-4d7a-9475-60082eca2794": {
+        "id": "02f0b0d4-72ac-4d7a-9475-60082eca2794",
+        "name": "背景",
+        "currentStyleId": "0f5e4171-2c20-46d6-9d6b-1d4cede6649f",
+        "styles": [
+          "4d58cea6-9d79-495c-998d-8269d007d4cb",
+          "0f5e4171-2c20-46d6-9d6b-1d4cede6649f"
+        ],
+        "nekoBlockJsonList": [],
+        "actorIds": [
+          "535873dd-8ea4-4880-8974-eff70cc63693",
+          "6d631613-c1e0-4b9e-8168-27ce8611c517",
+          "f7e3e7f8-a6c5-47e9-ad37-bcdaff4c9adb",
+          "9c9d38a0-a70c-47db-a7a8-db51c77abd9f",
+          "b286b0bd-1938-4ac9-9368-5e8f9bb02603"
+        ],
+        "visible": true,
+        "screenName": "游戏页",
+        "workspaceScrollXy": {
+          "x": 100,
+          "y": 50
+        }
+      },
+      "d78edb0d-399c-4e2f-a425-596f04d69c33": {
+        "id": "d78edb0d-399c-4e2f-a425-596f04d69c33",
+        "name": "背景",
+        "currentStyleId": "d1e90222-5a55-400c-b50f-7fc2a66ed254",
+        "styles": [
+          "d1e90222-5a55-400c-b50f-7fc2a66ed254"
+        ],
+        "nekoBlockJsonList": [],
+        "actorIds": [],
+        "visible": true,
+        "screenName": "空白场景",
+        "workspaceScrollXy": {
+          "x": 100,
+          "y": 50
+        }
+      }
+    },
+    "currentSceneId": "700824a5-44a8-4d03-a7e8-aa95d87e9b2a",
+    "sortList": [
+      "700824a5-44a8-4d03-a7e8-aa95d87e9b2a",
+      "02f0b0d4-72ac-4d7a-9475-60082eca2794",
+      "d78edb0d-399c-4e2f-a425-596f04d69c33"
+    ]
+  },
+  "styles": {
+    "stylesDict": {
+      "0e92cb61-a5ac-4fdf-8328-4e4a099f5cb3": {
+        "id": "0e92cb61-a5ac-4fdf-8328-4e4a099f5cb3",
+        "base64": "",
+        "url": "https://dev-cdn-common.codemao.cn/dev/396/f653a0a68d384693ae8401956674cddc.png",
+        "name": "星空"
+      },
+      "4d58cea6-9d79-495c-998d-8269d007d4cb": {
+        "id": "4d58cea6-9d79-495c-998d-8269d007d4cb",
+        "base64": "",
+        "url": "https://static.codemao.cn/neko/img_stage_defult_portrait.png",
+        "name": "背景"
+      },
+      "0f5e4171-2c20-46d6-9d6b-1d4cede6649f": {
+        "id": "0f5e4171-2c20-46d6-9d6b-1d4cede6649f",
+        "base64": "",
+        "url": "https://dev-cdn-common.codemao.cn/dev/396/f653a0a68d384693ae8401956674cddc.png",
+        "name": "星空"
+      },
+      "93d9c3c4-2da0-4aba-a8db-1dee201e4dd7": {
+        "id": "93d9c3c4-2da0-4aba-a8db-1dee201e4dd7",
+        "base64": "",
+        "url": "https://dev-cdn-common.codemao.cn/dev/396/de39fee4ffa940bbbdcc9fdbb75e39db.png",
+        "name": "战机2"
+      },
+      "3d86334c-0318-4c66-ba45-1e47214e36a9": {
+        "id": "3d86334c-0318-4c66-ba45-1e47214e36a9",
+        "base64": "",
+        "url": "https://dev-cdn-common.codemao.cn/dev/396/3fa5f283c43646db9a9c62a21b2c7636.png",
+        "name": "敌人1"
+      },
+      "823125ba-5a46-4f35-a5c3-1f67cca53059": {
+        "id": "823125ba-5a46-4f35-a5c3-1f67cca53059",
+        "base64": "",
+        "url": "https://dev-cdn-common.codemao.cn/dev/396/a9f48095fc3f471c93ffc1ab35bfb284.png",
+        "name": "敌人2"
+      },
+      "21070913-5c79-48c7-96a2-6425599025ce": {
+        "id": "21070913-5c79-48c7-96a2-6425599025ce",
+        "base64": "",
+        "url": "https://dev-cdn-common.codemao.cn/dev/396/97b403b017934e74b8e9297e6f006b79.png",
+        "name": "漩涡"
+      },
+      "4fb9b16e-d662-42dd-b3cc-c0cfb4e1fedd": {
+        "id": "4fb9b16e-d662-42dd-b3cc-c0cfb4e1fedd",
+        "base64": "",
+        "url": "https://dev-cdn-common.codemao.cn/dev/396/7edc7b6d0e4b4de486903ee511fecc49.png",
+        "name": "炮弹",
+        "centerPoint": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "fbb388eb-aa06-4280-bc05-d9a5ee8a258e": {
+        "id": "fbb388eb-aa06-4280-bc05-d9a5ee8a258e",
+        "base64": "",
+        "url": "https://dev-cdn-common.codemao.cn/dev/396/a973371b5cb04c4d9a6bb9699b0111d3.png",
+        "name": "炮弹",
+        "centerPoint": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "f235d480-e52f-4252-80ed-cebc92c791ce": {
+        "id": "f235d480-e52f-4252-80ed-cebc92c791ce",
+        "base64": "",
+        "url": "https://dev-cdn-common.codemao.cn/dev/396/e35957b740b14c07b7c98e3f87eed4bd.png",
+        "name": "炮弹",
+        "centerPoint": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "d1e90222-5a55-400c-b50f-7fc2a66ed254": {
+        "id": "d1e90222-5a55-400c-b50f-7fc2a66ed254",
+        "base64": "",
+        "url": "https://static.codemao.cn/neko/img_stage_defult_portrait.png",
+        "name": "背景"
+      },
+      "b620405d-26e7-40e5-a98a-5f3562bc55e2": {
+        "id": "b620405d-26e7-40e5-a98a-5f3562bc55e2",
+        "base64": "",
+        "url": "https://dev-cdn-common.codemao.cn/dev/396/e9eea78c7cbf417c98e6ee52d1b9e428.png",
+        "name": "开始游戏"
+      },
+      "35ca6679-ff25-42fd-8345-e50c848fe6ab": {
+        "id": "35ca6679-ff25-42fd-8345-e50c848fe6ab",
+        "base64": "",
+        "url": "https://dev-cdn-common.codemao.cn/dev/396/de39fee4ffa940bbbdcc9fdbb75e39db.png",
+        "name": "战机2"
+      },
+      "ec88ee15-0483-409b-bf1f-ae3183a7d9ea": {
+        "id": "ec88ee15-0483-409b-bf1f-ae3183a7d9ea",
+        "base64": "",
+        "url": "https://dev-cdn-common.codemao.cn/dev/396/69200b85a34f4c73bd51a507b1509e70.png",
+        "name": "战机3"
+      },
+      "6f0e5b89-62d9-4266-a272-4f08b1d99263": {
+        "id": "6f0e5b89-62d9-4266-a272-4f08b1d99263",
+        "base64": "",
+        "url": "https://dev-cdn-common.codemao.cn/dev/396/3071d466b4e946b1b782f1dccf462c14.png",
+        "name": "战机4"
+      },
+      "83531e3f-0f62-42cb-92c8-b2a90acf1dbb": {
+        "id": "83531e3f-0f62-42cb-92c8-b2a90acf1dbb",
+        "base64": "",
+        "url": "https://dev-cdn-common.codemao.cn/dev/396/103337f1641c419cb01ef89499fd94ef.png",
+        "name": "战机5"
+      },
+      "244bcede-32a7-4b3d-84c5-6ed6cf735db2": {
+        "id": "244bcede-32a7-4b3d-84c5-6ed6cf735db2",
+        "base64": "",
+        "url": "https://dev-cdn-common.codemao.cn/dev/396/de35104971244c2f944e81f62f32014d.png",
+        "name": "战机6"
+      }
+    }
+  },
+  "stageSize": {
+    "width": 562,
+    "height": 900
+  },
+  "variables": {
+    "variablesDict": {}
+  },
+  "broadcasts": {
+    "broadcastsDict": {
+      "700824a5-44a8-4d03-a7e8-aa95d87e9b2a": [
+        "Hi"
+      ],
+      "02f0b0d4-72ac-4d7a-9475-60082eca2794": [
+        "Hi"
+      ],
+      "d78edb0d-399c-4e2f-a425-596f04d69c33": [
+        "Hi"
+      ],
+      "toJSON": [
+        "Hi"
+      ]
+    }
+  },
+  "actors": {
+    "actorsDict": {
+      "b286b0bd-1938-4ac9-9368-5e8f9bb02603": {
+        "id": "b286b0bd-1938-4ac9-9368-5e8f9bb02603",
+        "position": {
+          "x": -2.705629461976514,
+          "y": -332.79825977785083
+        },
+        "scale": 23.63375228530379,
+        "locked": false,
+        "rotation": 0,
+        "nekoBlockJsonList": [],
+        "visible": true,
+        "workspaceScrollXy": {
+          "x": 100,
+          "y": 50
+        },
+        "name": "战机2",
+        "styles": [
+          "93d9c3c4-2da0-4aba-a8db-1dee201e4dd7"
+        ],
+        "currentStyleId": "93d9c3c4-2da0-4aba-a8db-1dee201e4dd7"
+      },
+      "9c9d38a0-a70c-47db-a7a8-db51c77abd9f": {
+        "id": "9c9d38a0-a70c-47db-a7a8-db51c77abd9f",
+        "position": {
+          "x": -170.95825759678678,
+          "y": 200.65525035641886
+        },
+        "scale": 15.681932969970799,
+        "locked": false,
+        "rotation": 0,
+        "nekoBlockJsonList": [],
+        "visible": true,
+        "workspaceScrollXy": {
+          "x": 100,
+          "y": 50
+        },
+        "name": "敌人1",
+        "styles": [
+          "3d86334c-0318-4c66-ba45-1e47214e36a9"
+        ],
+        "currentStyleId": "3d86334c-0318-4c66-ba45-1e47214e36a9"
+      },
+      "f7e3e7f8-a6c5-47e9-ad37-bcdaff4c9adb": {
+        "id": "f7e3e7f8-a6c5-47e9-ad37-bcdaff4c9adb",
+        "position": {
+          "x": 148.43376946993618,
+          "y": 137.83245458443793
+        },
+        "scale": 15.138860964027542,
+        "locked": false,
+        "rotation": 0,
+        "nekoBlockJsonList": [],
+        "visible": true,
+        "workspaceScrollXy": {
+          "x": 100,
+          "y": 50
+        },
+        "name": "敌人2",
+        "styles": [
+          "823125ba-5a46-4f35-a5c3-1f67cca53059"
+        ],
+        "currentStyleId": "823125ba-5a46-4f35-a5c3-1f67cca53059"
+      },
+      "6d631613-c1e0-4b9e-8168-27ce8611c517": {
+        "id": "6d631613-c1e0-4b9e-8168-27ce8611c517",
+        "position": {
+          "x": -35.46230061848959,
+          "y": 307.63711859002933
+        },
+        "scale": 100,
+        "locked": false,
+        "rotation": 0,
+        "nekoBlockJsonList": [],
+        "visible": true,
+        "workspaceScrollXy": {
+          "x": 100,
+          "y": 50
+        },
+        "name": "漩涡",
+        "styles": [
+          "21070913-5c79-48c7-96a2-6425599025ce"
+        ],
+        "currentStyleId": "21070913-5c79-48c7-96a2-6425599025ce"
+      },
+      "535873dd-8ea4-4880-8974-eff70cc63693": {
+        "id": "535873dd-8ea4-4880-8974-eff70cc63693",
+        "position": {
+          "x": -64.65174559153385,
+          "y": -215.2145004705842
+        },
+        "scale": 54.47000868934837,
+        "locked": false,
+        "rotation": 1.5894402453591354,
+        "nekoBlockJsonList": [
+          {
+            "type": "start_as_a_mirror",
+            "id": "AoAKSDRoVPV9YydawqM0",
+            "location": [
+              147,
+              131.99981689453125
+            ],
+            "shadows": {
+              "DO": ""
+            },
+            "shield": false,
+            "statements": {
+              "DO": {
+                "type": "self_move_specify",
+                "id": "jq3O7U0pg5EqCmuY62GR",
+                "location": [
+                  164,
+                  172
+                ],
+                "fields": {
+                  "sprite": "b286b0bd-1938-4ac9-9368-5e8f9bb02603"
+                },
+                "parent_id": "AoAKSDRoVPV9YydawqM0",
+                "shield": false,
+                "next": {
+                  "type": "self_appear",
+                  "id": "6WLtcOH711KMsoZn5fKo",
+                  "location": [
+                    156,
+                    210
+                  ],
+                  "fields": {
+                    "value": "appear"
+                  },
+                  "parent_id": "jq3O7U0pg5EqCmuY62GR",
+                  "shield": false,
+                  "next": {
+                    "type": "self_point_towards",
+                    "id": "CrR6ktPpqcjBb9hjeaox",
+                    "location": [
+                      152,
+                      252
+                    ],
+                    "shadows": {
+                      "degrees": "<shadow xmlns=\"http://www.w3.org/1999/xhtml\" type=\"math_number_with_dial\" id=\"UFUcQUQkjd1WUOpvsc2A\" visible=\"visible\"><field constraints=\"-180,180,0,true\" name=\"NUM\">90</field></shadow>"
+                    },
+                    "parent_id": "6WLtcOH711KMsoZn5fKo",
+                    "shield": false,
+                    "inputs": {
+                      "degrees": {
+                        "type": "math_number_with_dial",
+                        "id": "UFUcQUQkjd1WUOpvsc2A",
+                        "is_shadow": true,
+                        "fields": {
+                          "NUM": "90"
+                        },
+                        "field_constraints": {
+                          "NUM": {
+                            "min": -180,
+                            "max": 180,
+                            "precision": 0,
+                            "mod": true
+                          }
+                        },
+                        "is_output": true,
+                        "parent_id": "CrR6ktPpqcjBb9hjeaox",
+                        "shield": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "visible": true,
+        "workspaceScrollXy": {
+          "x": 100,
+          "y": 50
+        },
+        "name": "炮弹",
+        "styles": [
+          "4fb9b16e-d662-42dd-b3cc-c0cfb4e1fedd",
+          "fbb388eb-aa06-4280-bc05-d9a5ee8a258e",
+          "f235d480-e52f-4252-80ed-cebc92c791ce"
+        ],
+        "currentStyleId": "4fb9b16e-d662-42dd-b3cc-c0cfb4e1fedd"
+      },
+      "2d3d73c7-8d27-4d7d-b344-34428839fd98": {
+        "id": "2d3d73c7-8d27-4d7d-b344-34428839fd98",
+        "position": {
+          "x": -0.1152398096372167,
+          "y": -14.083096764941672
+        },
+        "scale": 37.37982168301123,
+        "locked": false,
+        "rotation": 0,
+        "nekoBlockJsonList": [
+          {
+            "type": "on_running_group_activated",
+            "id": "CTCGHSuNrQcngPujQcqz",
+            "location": [
+              57,
+              99
+            ],
+            "shield": false,
+            "next": {
+              "type": "repeat_forever",
+              "id": "QyVHASfz916NxTloyFOf",
+              "shadows": {
+                "DO": ""
+              },
+              "parent_id": "CTCGHSuNrQcngPujQcqz",
+              "shield": false,
+              "statements": {
+                "DO": {
+                  "type": "self_prev_next_style",
+                  "id": "0fI24GltndE2XO5UBbiO",
+                  "fields": {
+                    "prev_next": "next"
+                  },
+                  "parent_id": "QyVHASfz916NxTloyFOf",
+                  "shield": false,
+                  "next": {
+                    "type": "wait",
+                    "id": "HqoYyLlpfBGYWGGKwR00",
+                    "shadows": {
+                      "time": "<shadow xmlns=\"http://www.w3.org/1999/xhtml\" type=\"math_number\" id=\"2dr6RjmPBo2SV7PH2AIj\" visible=\"visible\"><field constraints=\"0,Infinity,0,\" name=\"NUM\">1</field></shadow>"
+                    },
+                    "parent_id": "0fI24GltndE2XO5UBbiO",
+                    "shield": false,
+                    "inputs": {
+                      "time": {
+                        "type": "math_number",
+                        "id": "2dr6RjmPBo2SV7PH2AIj",
+                        "is_shadow": true,
+                        "fields": {
+                          "NUM": "0.3"
+                        },
+                        "field_constraints": {
+                          "NUM": {
+                            "min": 0,
+                            "max": null,
+                            "precision": 0,
+                            "mod": null
+                          }
+                        },
+                        "is_output": true,
+                        "parent_id": "HqoYyLlpfBGYWGGKwR00",
+                        "shield": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "visible": true,
+        "workspaceScrollXy": {
+          "x": 100,
+          "y": 50
+        },
+        "name": "战机6",
+        "styles": [
+          "35ca6679-ff25-42fd-8345-e50c848fe6ab",
+          "ec88ee15-0483-409b-bf1f-ae3183a7d9ea",
+          "6f0e5b89-62d9-4266-a272-4f08b1d99263",
+          "83531e3f-0f62-42cb-92c8-b2a90acf1dbb",
+          "244bcede-32a7-4b3d-84c5-6ed6cf735db2"
+        ],
+        "currentStyleId": "244bcede-32a7-4b3d-84c5-6ed6cf735db2"
+      },
+      "f84269ce-7f8f-4365-b48d-75f6219a87f6": {
+        "id": "f84269ce-7f8f-4365-b48d-75f6219a87f6",
+        "position": {
+          "x": -2.1270809783238462,
+          "y": -281.31899524682
+        },
+        "scale": 47.49847743133056,
+        "locked": false,
+        "rotation": 0,
+        "nekoBlockJsonList": [
+          {
+            "type": "sprite_on_tap",
+            "id": "By0kSi8z1OT67Hr3Z9Kf",
+            "location": [
+              44,
+              102.00025939941406
+            ],
+            "fields": {
+              "type": "mouse_click",
+              "sprite": "--self"
+            },
+            "shield": false,
+            "next": {
+              "type": "switch_to_screen",
+              "id": "mytV4NmPKUgUbhJ71rWK",
+              "shadows": {
+                "screen_id": "<shadow xmlns=\"http://www.w3.org/1999/xhtml\" type=\"get_screens\" id=\"pobnfHOVdRi5o0vU5zyn\" visible=\"visible\" inline=\"true\"><field name=\"screen_id\">700824a5-44a8-4d03-a7e8-aa95d87e9b2a</field></shadow>"
+              },
+              "parent_id": "By0kSi8z1OT67Hr3Z9Kf",
+              "shield": false,
+              "inputs": {
+                "screen_id": {
+                  "type": "get_screens",
+                  "id": "pobnfHOVdRi5o0vU5zyn",
+                  "is_shadow": true,
+                  "fields": {
+                    "screen_id": "02f0b0d4-72ac-4d7a-9475-60082eca2794"
+                  },
+                  "is_output": true,
+                  "parent_id": "mytV4NmPKUgUbhJ71rWK",
+                  "shield": false
+                }
+              }
+            }
+          }
+        ],
+        "visible": true,
+        "workspaceScrollXy": {
+          "x": 100,
+          "y": 50
+        },
+        "name": "开始游戏",
+        "styles": [
+          "b620405d-26e7-40e5-a98a-5f3562bc55e2"
+        ],
+        "currentStyleId": "b620405d-26e7-40e5-a98a-5f3562bc55e2"
+      }
+    }
+  },
+  "audios": {
+    "audiosDict": {},
+    "sortList": [],
+    "currentAudioId": ""
+  },
+  "procedures": {
+    "proceduresDict": {}
+  },
+  "version": "0.5.0",
+  "hidden_toolbox": {
+    "toolbox": [],
+    "blocks": [],
+    "forcibleShowBlocks": []
+  },
+  "courseMaterials": {
+    "courseMaterialsDict": {},
+    "sortList": []
+  },
+  "previewUrl": "https://dev-cdn-common.codemao.cn/dev/922/user-files/FoLFen62coSkhBW9EfieQv9bFFwL"
+}

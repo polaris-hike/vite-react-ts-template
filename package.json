@@ -1,7 +1,7 @@
 {
   "name": "vite-react-ts-template",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1-0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -15,9 +15,26 @@
     "release": "standard-version"
   },
   "dependencies": {
+    "@ant-design/cssinjs": "^1.16.2",
+    "@crc/compress-img": "^2.0.0",
+    "@crc/tools-sdk": "^1.5.1",
+    "@types/dat.gui": "^0.7.7",
+    "@types/lodash": "^4.14.191",
+    "@types/three": "^0.148.0",
+    "antd": "^5.7.2",
+    "cesium": "^1.113.0",
+    "dat.gui": "^0.7.9",
+    "gifuct-js": "^2.1.2",
+    "jsqr": "^1.4.0",
+    "lodash": "^4.17.21",
+    "pica": "^9.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "scss": "^0.2.4"
+    "rollup-plugin-copy": "^3.5.0",
+    "scss": "^0.2.4",
+    "svgpath": "^2.6.0",
+    "three": "0.151.3",
+    "vconsole": "^3.15.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
@@ -37,7 +54,9 @@
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "standard-version": "^9.5.0",
+    "tailwindcss": "^3.3.1",
     "typescript": "^4.6.4",
-    "vite": "^3.0.0"
+    "vite": "^3.0.0",
+    "vite-plugin-static-copy": "^1.0.0"
   }
 }

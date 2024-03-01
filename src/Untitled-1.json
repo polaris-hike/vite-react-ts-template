@@ -1,0 +1,52 @@
+{
+  "work_id": 185519513,
+  "work_name": "进阶6-涂鸦狐的秘密",
+  "language_type": 3,
+  "preview_file": 25776794,
+  "code_visible": true,
+  "content": [
+    {
+      "work_id": 185519513,
+      "file_id": 25776792,
+      "file_type": 2,
+      "file_name": "任务1.py",
+      "open": false,
+      "pid": 0,
+      "source": "import turtle   # 导入turtle库\n\npen = turtle.Pen()    # 创建画笔\npen.pensize(5)    # 设置画笔粗细\npen.speed(0)    # 设置画笔速度\n\ns = 10    # 初始画线长度\n\n# 绘制\nfor i in range(100):    # 修改循环次数\n    pen.forward(s)\n    pen.right(90)\n    # 变量增加\n    s = s + 10\n\npen.hideturtle()    # 隐藏画笔\n\nturtle.done()\n",
+      "url": "",
+      "create_time": 1683168781,
+      "update_time": 1683168781
+    },
+    {
+      "work_id": 185519513,
+      "file_id": 25776793,
+      "file_type": 2,
+      "file_name": "任务2.py",
+      "open": false,
+      "pid": 0,
+      "source": "import turtle\n\npen = turtle.Pen()    # 创建画笔\npen.pensize(5)    # 设置画笔粗细\npen.speed(0)    # 设置画笔速度\n\ns = 10    # 初始画线长度\n\ncolor = input(\"颜色：\")    # 输入颜色\npen.pencolor(color)    # 设置画笔颜色\n\n# 绘制\nfor i in range(100):\n    pen.forward(s)\n    pen.right(75)\n    s = s + 10\n\npen.hideturtle()    # 隐藏画笔\n\nturtle.done()",
+      "url": "",
+      "create_time": 1683168781,
+      "update_time": 1683168781
+    },
+    {
+      "work_id": 185519513,
+      "file_id": 25776794,
+      "file_type": 2,
+      "file_name": "任务3.py",
+      "open": true,
+      "pid": 0,
+      "source": "import turtle\n\npen = turtle.Pen()    # 创建画笔\npen.pensize(5)    # 设置画笔粗细\npen.speed(0)    # 设置画笔速度\n\ns = 10    # 初始画线长度\n\ncolor = input(\"颜色：\")    # 输入颜色\npen.pencolor(color)    # 设置画笔颜色\n\nangle = int(input(\"角度：\"))    # 设置角度\n\n# 绘制\nfor i in range(100):\n    pen.forward(s)\n    pen.right(angle)    # 修改角度\n    s = s + 10\n\npen.hideturtle()    # 隐藏画笔\n\nturtle.done()",
+      "url": "",
+      "create_time": 1683168781,
+      "update_time": 1683168781
+    }
+  ],
+  "user_info": {
+    "id": 218506,
+    "avatar": "https://static.codemao.cn/nemo/SyK454iys.jpeg",
+    "nickname": "探月Python",
+    "description": "Python小学生"
+  },
+  "run_mode": 0
+}

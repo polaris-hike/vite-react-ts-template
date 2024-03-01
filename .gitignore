@@ -11,6 +11,11 @@
 # production
 /build
 
+/public/Assets
+/public/ThirdParty
+/public/Widgets
+/public/Workers
+
 # misc
 .DS_Store
 .env.local

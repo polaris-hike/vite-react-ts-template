@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>生成二维码示例</title>
+    <style>
+      #qrcode {
+        width: 400px;
+        height: 400px;
+        border: 1px solid pink;
+      }
+      img {
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="qrcodeDefault"></div>
+    <img id="qrcode" src="" alt="">
+    <img src="./codemao2.gif" alt="">
+    <img src="./gif2.gif" alt="">
+    </div>
+<!-- <script>
+// 创建画布
+var canvasA = document.createElement('canvas');
+var ctxA = canvasA.getContext('2d');
+
+var canvasB = document.createElement('canvas');
+var ctxB = canvasB.getContext('2d');
+
+var canvasC = document.createElement('canvas');
+var ctxC = canvasC.getContext('2d');
+
+// 加载图片 A
+var imageA = new Image();
+imageA.onload = function() {
+
+
+  // 将图片 A 绘制到画布 A 上，进行放大
+
+  // 加载图片 B
+  var imageB = new Image();
+  imageB.onload = function() {
+    console.log(imageB)
+      // 设置画布 A 的大小为图片 B 的大小
+    canvasA.width = imageB.width;
+    canvasA.height = imageB.height;
+    // 设置画布 B 的大小为图片 B 的大小
+    canvasB.width = imageB.width;
+    canvasB.height = imageB.height;
+    ctxA.drawImage(imageA, 0, 0, canvasA.width, canvasA.height);
+
+
+    // 将图片 B 绘制到画布 B 上
+    ctxB.drawImage(imageB, 0, 0);
+
+    // 遍历像素点，识别透明像素点
+    var imageDataA = ctxA.getImageData(0, 0, canvasA.width, canvasA.height);
+    var imageDataB = ctxB.getImageData(0, 0, canvasB.width, canvasB.height);
+    console.log('imageDataB:',imageDataB)
+    console.log(imageDataA, imageDataB);
+    for (var i = 0; i < imageDataA.data.length; i += 4) {
+      // 获取图片 A 像素点的透明度
+      var alphaA = imageDataA.data[i + 3];
+
+      // 判断透明度是否为 0
+      if (alphaA === 0) {
+        // 将对应位置的图片 B 像素点设置为透明
+        imageDataB.data[i + 3] = 0;
+      }
+    }
+
+    // 将修改后的像素数据重新绘制到画布 B 上
+    ctxB.putImageData(imageDataB, 0, 0);
+
+    // 将画布 B 转换为包含修改后图片的 Data URL
+    var modifiedImageDataURL = canvasB.toDataURL();
+    // console.log(modifiedImageDataURL);
+
+    // 加载图片 C
+    var imageC = new Image();
+    imageC.onload = function() {
+      // 设置画布 C 的大小为图片 C 的大小
+      canvasC.width = imageC.width;
+      canvasC.height = imageC.height;
+   // 计算将图片 B 盖在图片 C 上的位置和大小
+   var centerX = canvasC.width / 2;
+    var centerY = canvasC.height / 2;
+    var width = canvasC.width * 1;
+    var height = canvasC.height * 1;
+      // 将图片 C 绘制到画布 C 上
+      ctxC.drawImage(imageC, 0, 0);
+
+      // 将修改后的图片 B 绘制到画布 C 上
+      ctxC.drawImage(canvasB, 0, 0);
+
+      // 将画布 C 转换为包含合并后图片的 Data URL
+      var mergedImageDataURL = canvasC.toDataURL();
+      qrcode.src = mergedImageDataURL
+      // console.log(mergedImageDataURL);
+    };
+
+    // 设置图片 C 的源
+    imageC.crossOrigin = 'anonymous';
+    imageC.src = './codemao2.gif';
+
+  };
+  imageB.crossOrigin = 'anonymous';
+  // 设置图片 B 的源
+  imageB.src = './codemao1.gif';
+};
+imageA.crossOrigin = 'anonymous';
+// 设置图片 A 的源
+imageA.src = './codemao.gif';
+</script> -->
+  </body>
+</html>
